@@ -6,6 +6,10 @@
 #include <Arduino.h>
 #include <NuvIoT.h>
 
+#define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
+#include "esp_log.h"
+
+
 #define TEMP_SNSR_SKU "Temperature Sensor"
 #define FIRMWARE_VERSION "0.5.0"
 #define HARDWARE_REVISION "3.0"
@@ -139,7 +143,7 @@ void determineSensorConfiguration()
 BLE BT(&console, &hal, &state, &ioConfig, &sysConfig, &relayManager, payload);
 
 void setup()
-{
+{  
   delay(1000);
 
   configureFileSystem();
