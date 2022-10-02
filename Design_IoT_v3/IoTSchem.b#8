@@ -77,7 +77,7 @@
 <layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
@@ -189,6 +189,15 @@
 <circle x="3.81" y="3.81" radius="1.905" width="0.1524" layer="45"/>
 <circle x="72.39" y="72.39" radius="1.905" width="0.1524" layer="45"/>
 <circle x="72.39" y="3.81" radius="1.905" width="0.1524" layer="45"/>
+<text x="68.58" y="66.04" size="1.27" layer="112" rot="R90">VIN</text>
+<text x="68.58" y="58.42" size="1.27" layer="112" rot="R90">5V</text>
+<text x="68.58" y="50.8" size="1.27" layer="112" rot="R90">LIPO</text>
+<text x="76.2" y="60.96" size="1.27" layer="112" rot="R90">+</text>
+<text x="76.2" y="53.34" size="1.27" layer="112" rot="R90">+</text>
+<text x="76.2" y="68.58" size="1.27" layer="112" rot="R90">+</text>
+<text x="76.2" y="64.77" size="1.27" layer="112" rot="R90">-</text>
+<text x="76.2" y="57.15" size="1.27" layer="112" rot="R90">-</text>
+<text x="76.2" y="49.53" size="1.27" layer="112" rot="R90">-</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -3755,7 +3764,7 @@ design rules under a new name.</description>
 <attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="152.4" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="152.4" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="640456-2" x="152.4" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="68.21" y="58.69" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="73.66" y="55.88" size="0.8128" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="152.4" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/640456-2/?ref=eda" x="152.4" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="77.43" y="56.15" size="1.27" layer="27" rot="R90"/>
@@ -3951,7 +3960,7 @@ design rules under a new name.</description>
 <attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="59.69" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="59.69" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="640456-2" x="59.69" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="68.21" y="51.07" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="73.66" y="48.26" size="0.8128" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="59.69" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/640456-2/?ref=eda" x="59.69" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="77.43" y="48.53" size="1.27" layer="27" rot="R90"/>
@@ -3996,17 +4005,17 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="45.72" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.45" y="10.16" size="1.27" layer="27"/>
 </element>
-<element name="J6" library="640456-2" package="TE_640456-2" value="640456-2" x="72.517" y="68.707" smashed="yes" rot="R90">
-<attribute name="COMMENT" value="640456-2" x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" Connector Header Through Hole 2 position 0.100 (2.54mm) " x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="A1921-ND" x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="640456-2" x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="68.337" y="66.437" size="0.8128" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="None" x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/640456-2/?ref=eda" x="72.517" y="68.707" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="77.557" y="63.897" size="1.27" layer="27" rot="R90"/>
+<element name="J6" library="640456-2" package="TE_640456-2" value="640456-2" x="72.39" y="68.58" smashed="yes" rot="R90">
+<attribute name="COMMENT" value="640456-2" x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole 2 position 0.100 (2.54mm) " x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="A1921-ND" x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TE Connectivity" x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="640456-2" x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="73.66" y="63.5" size="0.8128" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="None" x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/640456-2/?ref=eda" x="72.39" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="77.43" y="63.77" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D6" library="5988170107F" package="LEDC2012X70N" value="5988170107F" x="64.77" y="6.35" smashed="yes">
 <attribute name="DESCRIPTION" value=" Green 566nm LED Indication - Discrete 2V 0805 (2012 Metric) " x="64.77" y="6.35" size="1.778" layer="27" display="off"/>
@@ -4325,7 +4334,7 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="1"/>
 <contactref element="D5" pad="A"/>
 <contactref element="J6" pad="1"/>
-<wire x1="68.24" y1="72.39" x2="72.517" y2="68.707" width="0" layer="19" extent="1-1"/>
+<wire x1="68.24" y1="72.39" x2="72.39" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="66.4464" y1="68.58" x2="68.24" y2="72.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONFIG">

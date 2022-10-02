@@ -22206,6 +22206,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J6" library="640456-2" deviceset="640456-2" device=""/>
 <part name="D6" library="5988170107F" deviceset="5988170107F" device=""/>
 <part name="R1" library="CRCW0805330RJNEAC" deviceset="CRCW0805330RJNEAC" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22516,6 +22517,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="76.19851875" y="166.365559375" size="2.1844" layer="95" rot="R90"/>
 <attribute name="VALUE" x="83.826640625" y="153.66003125" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SUPPLY4" gate="G$1" x="86.36" y="50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -22685,6 +22687,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="48.26" y1="100.076" x2="48.26" y2="94.996" width="0.1524" layer="91"/>
 <label x="45.72" y="100.076" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="U5" gate="U1" pin="VCC"/>
+<wire x1="91.44" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="50.8" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<junction x="86.36" y="43.18"/>
+<label x="87.63" y="49.53" size="1.778" layer="95"/>
+<pinref part="SUPPLY4" gate="G$1" pin="5V"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -22745,12 +22757,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C11" gate="G$1" pin="1"/>
 <label x="68.58" y="40.64" size="1.778" layer="95"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-<pinref part="U5" gate="U1" pin="VCC"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="43.18" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
-<junction x="81.28" y="43.18"/>
-<wire x1="81.28" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="VOUT"/>
