@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-10-03T21:17:22Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "IoTSchem"
+        },
+        "Owner": "Kevin Wolf <kevinw@software-logistics.com>",
+        "Size": {
+            "X": 76.2,
+            "Y": 76.2
+        }
+    }
+}
